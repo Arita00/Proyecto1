@@ -1,0 +1,47 @@
+header{
+    background-color: #59a6ca;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    position: sticky;
+    top: 0%;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+
+nav li{
+    margin: 0;
+}
+
+nav a{
+    text-decoration: none;
+    color: #030331;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.play{
+    height: 50vh;
+    background-color: rgb(8, 20, 196);
+}
+
+.letra{
+    height: 90vh;
+    background-color: #6d13a1;
+}
+
+.referencia{
+    height: 60vh;
+    background-color: #a50c0c;
+}
